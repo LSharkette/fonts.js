@@ -235,7 +235,8 @@ function fontManage(){
 
 var goodFonts = fonts.filter(function (obj) {
 
-  return obj.win >= 90 &&
+  return obj.win >= 90 &&    
+
          obj.mac >= 90;
   }).map(function(obj){
 
